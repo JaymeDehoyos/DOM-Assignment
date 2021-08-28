@@ -1,0 +1,47 @@
+body {
+	background-color:rgb(113, 128, 79);
+    font-family:cursive;
+}
+
+h1 {
+	font-family:cursive;
+	font-size: 52px;
+	color: rgb(218, 186, 47);
+}
+
+label {
+	font-family: cursive;
+	font-weight: normal;
+}
+
+option {
+	font-family:cursive;
+}
+
+.form-control {
+	font-family:cursive;
+	color: #142d4c;
+}
+
+.btn {
+	font-family:cursive;
+	background-color: #35ee88;
+	border-color: #0aeeaa;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	background-color: #50dbee;
+	color: #142d4c;
+}
+
+.card {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/54275635e4b096834c4fb9e1/1436996358277-BN533GOD3EFP25MR40ZC/Sunflower11.jpg?format=1000w");
+}
+
+th {
+	font-family:cursive;
+	font-size: 20px;
+	color: black;
+    background-color:rgb(28, 133, 19);
+}

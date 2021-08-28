@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Blogging</title>
+</head>
+<body>
+    <div class="card mt-4">
+        <div class="card-body">
+            <h1 class="text-center mb-3">
+                Blog Log
+            </h1>
+
+            <!--date-->
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-control pb-3">
+                        <label class="ms-1" for="new-date">Date</label>
+                        <input type="date" class="form-control" id="date" />
+                    </div>
+                </div>
+            </div>
+
+            <br/><br/>
+
+            <!--category-->
+            <div class="row">
+                <div class="col-sm">
+                    <div class="input-group form-inline p-2">
+                        <select class="form-select" id="category">
+                            <option selected>select category</option>
+                            <option>For Fun</option>
+                            <option>Venting</option>
+                            <option>Personal</option>
+                        </select>
+                        <label class="input-group-text" for="category">
+                            Options
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <br/><br/>
+
+            <!--journal-entry-->
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-control pb-3">
+                        <label class="ms-1" for="blog-entry">
+                            Entry
+                        </label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="blog-entry"
+                            placeholder="blog away..."
+                        />
+                    </div>
+                </div>
+            </div>
+
+            <br/><br/>
+
+            <!--create-->
+            <div>
+                <button id="create" class="btn btn-primary">
+                    Create
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <br/><br/>
+
+    <!--entry-log-->
+    <table
+        class="table table-secondary table-striped text-center"
+        id="entry-log"
+    >
+        <tr>
+            <th>Date</th>
+            <th>Category</th>
+            <th>Entry</th>
+            <th>Active</th>
+        </tr>
+    </table>
+
+
+    <script src="DOM.js"></script>
+		<script src="node_modules/jquery/dist/jquery.js"></script>
+		<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
+</body>
+</html>
+
+
